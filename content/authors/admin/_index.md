@@ -6,7 +6,7 @@ title: Jorand Gallou
 superuser: true
 
 # Role/position/tagline
-role: Industrial and Aerospace Research Engineer
+role: Industrial and Aerospace Robotics Research Engineer
 
 # Organizations/Affiliations to show in About widget
 #organizations:
@@ -14,7 +14,7 @@ role: Industrial and Aerospace Research Engineer
 #  url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include robotics arm, mobile computing and programmable matter.
+bio: My research interests include robotics arm, machine learning and path planning.
 
 # Interests to show in About widget
 #interests:
@@ -73,12 +73,14 @@ email: ""
 highlight_name: false
 ---
 
-Here I present my master thesis and various project I worked for
+This portfolio presents different projects on which I worked during my Master of Science and during my free time.
 #### Research Vision
 
-In my MSc research I aimed to perform agressive drone landing using standard platforms. Quality of control depends on  the precision of the estimation of the system state, which itself depends on the precision allowed by the sensors.
+My MSc was focused on autonomous path planning for in-Space robot manipulators. I used reinforcement learning to answer to the autonomy required for the thesis.
 
-Now I would like to accelerate the era of autonomy defined by highly manoeuvrable robots, extremely reliable and minimally invasive for the environment. To achieve this, my goal is to make a breakthrough in reliability by teaching robots with increased senses for **safety**, ensured **performance** and **super-human** abilities.
+I am now working on autonomous robots that could interact in unknown and complex environments through personal projects including computer vision and machine. learning
+
+To achieve this, my goal is to make personal projects on which everybody could take part by sharing my knowledge and using open sourced items.
 
 
 <!--{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
