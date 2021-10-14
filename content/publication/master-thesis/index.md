@@ -28,10 +28,10 @@ publication_types: ["7"]
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract: There is an increasing demand for fast drone deliveries for both consumer’s necessities and medical emergencies. All aircraft are subject to landing difficulties because of near-ground aerodynamic effects and complications with moving from air to land. In addition, for improving delivery, there have been many developments within space research aiming to reduce global cost. Reusable rockets are regarded as the future of space travel, however, numerous accidents have been observed during landing, making these rockets an unreliable resource for experimentation. The standard approach for both drone delivery and reusable rockets requires speed reduction before landing, as explained by the lack of precision of the embedded sensors combined with the fragility of the chassis. The landing shock thus needs to be attenuated to deform irremediably the frame structure. Therefore there is a need for improvement of landing approach for more reliability. The main research contents of this Master thesis cover different areas forthe development of a newly designed electric thrust vectored rocket that aims to incorporate a fast landing approach using this new benchmark system.
+abstract: Since the start of the space conquest, almost all spacecraft have been manufactured and assembled on the ground, then integrated into a launch vehicle for delivery into orbit. This ap­proach imposes significant limitations on the size, volume, and design of payloads. In addition, the size of the telescopes and antennas is intimately linked to their performance. Therefore, there is a need for improvement of the space assembly to get rid of these limitations. With the on -orbit assembly, the launched vehicle only embarks the modular components required for bigger and more complex structures which are then build via a robot. Truss assembly plays an important role when one needs to build strong and light structures. Truss allows constructing complex structures from a simple one. It considerably reduces the amount of space and weight in the launch vehicle.
 
 # Summary. An optional shortened abstract.
-summary: The needs for fast drones with super-human capabilities has been applied for landing approach. 
+summary: The needs for path planning with super-human capabilities has been applied for truss assembly. 
 
 tags: []
 
@@ -43,12 +43,12 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'publication/fast-landing/NPU-2018280049.pdf'
+url_pdf: 'publication/master-thesis/NPU-Thesis.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'publication/fast-landing/defense-master-thesis.pptx'
+url_slides: 'publication/master-thesis/defense-master-thesis.pptx'
 url_source: ''
 url_video: ''
 
@@ -75,23 +75,19 @@ image:
 #slides: example
 ---
 
-#### Drone Perception
+#### Truss Assembly 
 
-This research proposed a way to generate accurate photorealistic dataset for a given landing pad. It was then possible to use it for supervised learning.
+The joint at the assembly nodes is a crucial part. For a robotic assembly, it is the part that requires the most advanced techniques, but it could be facilitated with a well engineered process. Different are discussed for the assembly of mirrors and then magnetic joints are presented.
 
-![alt text](camera-vision.jpg "Environment Landing Pad Generator")
+![alt text](assembly.png "Bars Assembly")
 
-The proposed [dataset generator](https://github.com/jumellet/landing-pad-dataset-generator) gave a way to feed the neural networks. It has now the ability to estimate accurately its position with a wide range of vision. Thanks to an appropriate landing pad shape, even seeing only part of the landing area permits the drone to descend.
+![alt text](final-assembly.png "Final assembly of 7 mirrors with the second design")
 
-#### Guidance and Control
+This design ease the assembly for the robot. First, the grasping is made using magnetization so no need for special grasping. There is no lost surface and the bars are lighter which is a very important consideration for an on-­orbit assembly where the payload is very costly. Then because of the symmetry of the bars, the assembly needs to care only about the orientation of the element on the z axis. Finally, this design can easily be printed in space same as the ”Trusselator” which considerably reduces the payload for big structures assembly.
 
-For visual servoing, a multi-scale control is proposed where control sensitivity depends on drone altitude. The use of the neural network in a simulated environment multiplied by three the processing rate, the control is thus closer to real time. 
+#### Autonomous path planning 
 
-![alt text](drone-land.gif "Fast Landing Working Algorithm Demo")
+The number of steps is the number of modifications of the joint angle. The DQL showed good results. With this Policy, the robot could find the optimal path to the target with the minimum number of 3 steps. Finally, that technique was kept to make the Pick and Place environment where the robot had to catch a ball with a magnetized end-effector and place it in another desired position. In the end, the robot did it with an average of 5 steps. 
 
-#### Mechanical Landing Gear
+![alt text](animation.gif "Autonomous planning")
 
-For fast landing situations, the vertical speed is higher than standard descent. The research proposes a landing gears that absorbs more than ten times the kinetic energy of standard landing legs. A
-**patent** is filed to protect the concept..
-
-![alt text](landing-gear.jpg "Landing Gear Concept Evolution")

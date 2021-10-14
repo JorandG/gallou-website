@@ -78,7 +78,7 @@ This portfolio presents different projects on which I worked during my Master of
 
 My MSc was focused on autonomous path planning for in-Space robot manipulators. I used reinforcement learning to answer to the autonomy required for the thesis.
 
-I am now working on autonomous robots that could interact in unknown and complex environments through personal projects including computer vision and machine. learning
+I am now working on autonomous robots that could interact in unknown and complex environments through personal projects including computer vision and machine learning.
 
 To achieve this, my goal is to make personal projects on which everybody could take part by sharing my knowledge and using open sourced items.
 

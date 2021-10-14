@@ -27,11 +27,11 @@
 
 [[buttons]]
   id = "linkedin"
-  url = "https://www.linkedin.com/shareArticle?url={url}&title={title}"
+  url = "https://fr.linkedin.com/in/jorand-gallou-308145125"
   title = "LinkedIn"
   icon_pack = "fab"
   icon = "linkedin-in"
-  enable = false
+  enable = true
 
 [[buttons]]
   id = "whatsapp"
@@ -67,7 +67,7 @@
 
 [[buttons]]
   id = "github"
-  url = "https://github.com/jumellet"
+  url = "https://github.com/JorandG"
   title = "github"
   icon_pack = "fab"
   icon = "github"
@@ -75,8 +75,8 @@
 
 [[buttons]]
   id = "youtube"
-  url = "https://www.youtube.com/channel/UCwZUcUe_qjaWhh-97-XTDgA"
+  url = ""
   title = "youtube"
   icon_pack = "fab"
   icon = "youtube"
-  enable = true
+  enable = false
