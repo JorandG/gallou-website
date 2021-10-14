@@ -43,7 +43,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'publication/master-thesis/NPU-Thesis.pdf'
+url_pdf: 'publication/master-thesis/NPU_Thesis.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
