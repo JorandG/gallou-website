@@ -80,6 +80,6 @@ The servos are plugged on the PWN pins 5, 6, 9. And the joystick is plugged on t
 
 #### Conputer Vision
 
-Steps are described on the github repository [EEZYbotComputerVision]("https://github.com/JorandG/EezybotMK1ComputerVision") so that the user can obtain the postion of an object in a square made with aruco markers as followed:
+Steps are described on the github repository [EEZYbotComputerVision](https://github.com/JorandG/EezybotMK1ComputerVision) so that the user can obtain the postion of an object in a square made with aruco markers as followed:
 
 ![alt text](cv.png "Object detection")
